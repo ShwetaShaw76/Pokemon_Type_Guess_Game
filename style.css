@@ -89,6 +89,8 @@
     80%{
         transform: translateX(0vw);
     }
+    100%{
+    }
 }
 @keyframes bgcolorchange {
     0%{

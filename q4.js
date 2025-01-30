@@ -5,34 +5,34 @@ let o4=document.querySelector(".q4o4")
 let prev=document.querySelector(".previous")
 let next=document.querySelector(".next")
 let right=document.querySelector("#correct")
-let wrong=document.querySelector("#wrong")
-o1.addEventListener("onclick",()=>{
-  right.style.display="flex";
-  wrong.style.display="flex";
+let wrong=document.querySelectorAll("#wrong")
+o1.addEventListener("click",()=>{
+  right.style.display="inline-block";
+  wrong.style.display="inline-block";
   o1.style.backgroundColor=" #dfff00";
   o1.style.color=" #ff0000";
 })
-o2.addEventListener("onclick",()=>{
-    right.style.display="flex";
-    wrong.style.display="flex";
+o2.addEventListener("click",()=>{
+    right.style.display="inline-block";
+    wrong.style.display="inline-block";
     o2.style.backgroundColor=" #dfff00";
   o2.style.color=" #ff0000";
 })
-o3.addEventListener("onclick",()=>{
-    right.style.display="flex";
-    wrong.style.display="flex";
+o3.addEventListener("click",()=>{
+    right.style.display="inline-block";
+    wrong.style.display="inline-block";
     o3.style.backgroundColor=" #dfff00";
   o3.style.color=" #ff0000";
 })
-o4.addEventListener("onclick",()=>{
-    right.style.display="flex";
-    wrong.style.display="flex";
+o4.addEventListener("click",()=>{
+    right.style.display="inline-block";
+    wrong.style.display="inline-block";
     o4.style.backgroundColor=" #dfff00";
   o4.style.color=" #ff0000";
 })
-next.addEventListener("onclick",()=>{
+next.addEventListener("click",()=>{
     location.href="question5.html";
 })
-prev.addEventListener("onclick",()=>{
+prev.addEventListener("click",()=>{
     location.href="question3.html";
 })
