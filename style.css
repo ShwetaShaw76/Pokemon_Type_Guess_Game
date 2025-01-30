@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    display: flex;
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.8);
+    background-color: #E4D00A;
+    animation: bgcolorchange 6s ease-in-out reverse infinite;
+}
+.log{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    height: 80%;
+    width: 10%;
+}
+.h1{
+    font-family: "Rubik Wet Paint", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3rem;
+  color:   #461257;
+  animation: colorchange 6s ease-in-out reverse infinite;
+}
+.bg {
+    background-image:url("https://giffiles.alphacoders.com/398/3987.gif");
+    background-size: contain;
+    background-repeat:repeat;
+    backdrop-filter:blur(5px);
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    filter: blur(5px);
+}
+.background{
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.image-holder{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center; 
+}
+.img{
+    height: 100%;
+    width: 60vw;  
+}
+.btn1{
+    height: 10vh;
+    width: 15vw;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    background-color: #3DED97;
+    font-family: "Madimi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    border: 4px solid #BE93D4;
+}
+#send{
+    font-size: 2.5rem;
+    margin: 7px;
+}
+.btn1:hover{
+    background-color: #FF5C5C;
+    border: 7px solid #7A4988;
+    color: #4C0121;
+}
+@keyframes colorchange {
+    0%{
+        transform: translateX(20vw);
+    }
+    20%{
+        transform: translateX(40vw);
+    }
+    40%{
+        transform: translateX(40vw);
+    }
+    60%{
+       transform: translateX(20vw);
+    }
+    80%{
+        transform: translateX(0vw);
+    }
+}
+@keyframes bgcolorchange {
+    0%{
+        background-image: linear-gradient(to left,#FF2E2E,#fada5e);
+    }
+    20%{
+        background-image: linear-gradient(to left,#ff0000,#fbec5d);
+    }
+    40%{
+        background-image: linear-gradient(to left,#d9381e,#dfff00);
+    }
+    60%{
+        background-image: linear-gradient(to left,#dc143c,#fff700);
+    }
+    80%{
+        background-image: linear-gradient(to left,#A30000,#ffff00);
+    }
+}
+
