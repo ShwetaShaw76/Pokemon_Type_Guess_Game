@@ -29,3 +29,6 @@ o4.addEventListener("onclick",()=>{
     o4.style.backgroundColor=" #dfff00";
   o4.style.color="#ff0000";
 })
+next.addEventListener("onclick",()=>{
+    location.href="question2.html";
+})
