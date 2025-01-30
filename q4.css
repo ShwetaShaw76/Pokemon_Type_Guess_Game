@@ -186,3 +186,13 @@
     background-color:#fbec5d;
     color: #A30000;
 }
+#correct{
+    font-size: 2rem;
+    color: green;
+    display: none;
+}
+#wrong{
+    font-size: 2rem;
+    color: red;
+    display: none;
+}

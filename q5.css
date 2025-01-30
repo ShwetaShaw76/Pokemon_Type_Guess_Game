@@ -177,3 +177,13 @@
     background-color: rgba(0,0,0,0.4);
     box-shadow: 5px 5px 6px 5px skyblue;
 }
+#correct{
+    font-size: 2rem;
+    color: green;
+    display: none;
+}
+#wrong{
+    font-size: 2rem;
+    color: red;
+    display: none;
+}
